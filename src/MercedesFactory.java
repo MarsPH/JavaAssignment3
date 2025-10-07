@@ -1,12 +1,11 @@
- class MercedesFactory extends AbstractFactory{
+class TruckFactory extends AbstractFactory{
+     @Override
+     Volvo makeVolvo() {
+         return new TruckVolvo();   // swapped
+     }
 
-    @Override
-     Car makeCar() {
-        return  new MercedesCar() ;
-    }
-
-    @Override
-     Truck makeTruck() {
-        return   new MercedesTruck();
-    }
+     @Override
+     Mercedes makeMercedes() {
+         return new TruckMercedes(); // swapped
+     }
 }

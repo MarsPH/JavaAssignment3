@@ -1,6 +1,6 @@
- class VolvoCar extends Car{
+class CarVolvo extends Volvo{
     @Override
      void display(){
-        System.out.println("volvo car");
+        System.out.println("Car Volvo");
     }
 }

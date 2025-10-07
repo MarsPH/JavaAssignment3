@@ -1,12 +1,12 @@
- class VolvoFactory extends AbstractFactory {
+class CarFactory extends AbstractFactory {
 
     @Override
-     Car makeCar() {
-      return  new VolvoCar() ; //call a builder
+     Volvo makeVolvo() {
+      return  new CarVolvo() ; //call a builder
     }
 
     @Override
-     Truck makeTruck() {
-      return   new VolvoTruck();
+     Mercedes makeMercedes() {
+      return   new CarMercedes();
     }
 }

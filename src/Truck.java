@@ -1,3 +1,3 @@
- abstract class Truck {
-     abstract void display();
+abstract class Mercedes {
+    abstract void display();
 }
