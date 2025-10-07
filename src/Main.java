@@ -3,15 +3,15 @@ public class Main {
 
 
 
-       AbstractFactory factory =AbstractFactory.factory(Type.mercedes);
-       Truck truck = factory.makeTruck();
-       Car car =factory.makeCar();
+       AbstractFactory factory =AbstractFactory.factory(Type.Truck);
+       Mercedes truck = factory.makeMercedes();
+       Volvo car =factory.makeVolvo();
        truck.display();
        car.display();
 
-        factory =AbstractFactory.factory(Type.volvo);
-        truck = factory.makeTruck();
-        car =factory.makeCar();
+        factory =AbstractFactory.factory(Type.Car);
+        truck = factory.makeMercedes();
+        car =factory.makeVolvo();
         truck.display();
         car.display();
 

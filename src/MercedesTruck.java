@@ -1,5 +1,5 @@
- class MercedesTruck extends Truck{
+class TruckMercedes extends Mercedes{
       void display(){
-        System.out.println("mercedes truck");
+        System.out.println("Truck Mercedes");
     }
 }
